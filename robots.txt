@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aravinddealshub.pages.dev/sitemap.xml

@@ -1,0 +1,84 @@
+
+@media(max-width:768px){
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  -webkit-tap-highlight-color: transparent;
+
+
+
+}
+    body{
+    margin: 0;
+    padding: 0px;
+    background: linear-gradient(to right,#f5deb3);
+
+}
+.logo{
+    
+    height: 70px;
+    width: auto;
+    padding: 5px;
+    position: absolute;
+    top:60px ;
+    
+}
+.heading{
+    background-color: #e67e22;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 2px;
+}
+ 
+
+h1{
+    
+    white-space: nowrap;
+    font-size: 70%;
+    position: relative;
+    top: 0px;
+    
+
+}
+p{
+     font-size: 50%;
+    white-space:wrap;
+    position: relative;
+    top: 2px;
+     
+    
+}
+.products{
+    background: linear-gradient(#2e7d32, #81c784, #f5f5dc);
+    border-radius: 20px;   /* rounded corners */
+    margin: 10px;     /* space outside box */
+    padding: 12px;
+    position: relative;
+    top: 10px;
+    
+}
+.fassion{
+    padding: 7px;
+     display: flex;   /* changed from flex → grid gives proper rows/columns */
+     gap: 10px;
+     overflow-x: auto;
+     
+} 
+.images{
+    border:solid beige;
+    border-radius: 10px;
+    height: 140px;
+    width: 100px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.images:hover {
+  transform: scale(1.1);
+}
+ 

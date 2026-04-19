@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(to right,#f5deb3);
+    text-align: center;
+
+}
+.logo{
+    position: absolute;
+    height: 80px;
+    width: auto;
+    display: block;
+    top: 100px;
+}
+ .heading{
+    background-color:#e67e22;
+    padding: 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 2px;
+}
+h1{
+    
+     font-size: clamp(20px, 4vw, 32px);
+     margin-top: 0 start; 
+}
+p{
+     font-size: clamp(12px, 2.5vw, 16px);  /* smaller responsive text */
+     margin-bottom: 50px;   /* space before product section */
+     color: #333; 
+     margin-top: 0 start;
+}
+.products{
+    background: linear-gradient(#2e7d32, #81c784,#2e7d32);
+    border-radius: 20px;   /* rounded corners */
+    margin: 15px 10px;     /* space outside box */
+    padding: 12px;
+   
+
+}
+.fassion{
+    padding: 10px;
+     display: flex;   /* changed from flex → grid gives proper rows/columns */
+     gap: 10px;
+     flex-wrap: wrap;
+    text-align: center;
+}
+.images{
+    border:solid beige;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+   transition: transform 0.3s ease;
+}
+
+.images:hover {
+  transform: scale(1.1);
+}
