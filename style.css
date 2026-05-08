@@ -49,7 +49,6 @@ p{
 .nav-bag{
    background-color:black;
    color: whitesmoke;
-   border: solid rgb(248, 246, 242);
    border-radius: 10px;
    
 }
@@ -93,8 +92,11 @@ p{
      display: flex;   /* changed from flex → grid gives proper rows/columns */
      gap: 10px;
      overflow-y: auto;
+     
     
 }
+
+
 .images{
     border:solid beige;
     border-radius: 10px;

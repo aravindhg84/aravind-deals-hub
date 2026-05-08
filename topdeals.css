@@ -46,16 +46,30 @@ p{
 
 }
 .fassion{
+    
     padding: 10px;
      display: flex;   /* changed from flex → grid gives proper rows/columns */
-     gap: 10px;
-     flex-wrap: wrap;
-    text-align: center;
+     gap: 30px;
+
+    overflow-y: auto;
+}
+.sasa{
+    border: none;
+    border-radius: 20px;
+}
+.price{
+    color: black;
+    background-color:white;
+    padding: 10px;
+    border: black;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 .images{
     border:solid beige;
     border-radius: 10px;
-    height: 200px;
+    height: 250px;
     width: 200px;
    transition: transform 0.3s ease;
 }
