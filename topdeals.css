@@ -53,6 +53,9 @@ p{
 
     overflow-y: auto;
 }
+.cre{
+    width: 900px;
+}
 .sasa{
     border: none;
     border-radius: 20px;
@@ -64,7 +67,7 @@ p{
     border: black;
     border-radius: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+
 }
 .images{
     border:solid beige;
